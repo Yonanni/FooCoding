@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    /* box-sizing: border-box; */
+    margin: 0;
+
+}
+main {
+    max-width: 100%;
+    font-size: 0.8em;
+    margin: 0 auto;
+    font-family: 'Roboto', ubuntu;
+    text-align: center;
+    
+}
+
+img{
+  width:100%;
+  display:block;
+  
+}
+img:hover {
+   transform: scale(0.6); 
+}
+img{
+   transition: transform 3s;
+}
+h1{
+    color: darkred;
+    text-align: center;
+    border-style: double;
+    border-width:5px;
+    animation-name: h1;   
+    animation-duration: 4s;   
+   
+}
+@keyframes h1 {
+   from {
+      background:goldenrod;  
+      margin-top: 100%;
+      width: 300%; 
+    }
+
+    to {
+      background: gray; 
+      margin-top: 0%;
+      width: 100%;
+    }
+   }  
+h2{
+  text-align:center;
+  clear:both;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.grid-item {   
+    
+   padding: 20px;
+   width: 16rem;
+   height: 31rem;
+   margin: 20px;
+   text-align: center;
+}
+#grid-floats .grid-item {
+   float: left;
+ }
+
+ #grid-floats > .grid-item:first-child {
+   width: 44%;
+}
+#grid-flex > .grid-item:first-child {
+   width: 44%;
+}
+
+.grid-item {
+    box-sizing: border-box;
+
+ }
+ img {
+   max-width: 210px;
+   height: 180px;
+}
+
+#grid-flex {   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
