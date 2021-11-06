@@ -1,0 +1,89 @@
+/* hr {
+    margin-top: -20px;
+}
+.encyclop {
+    margin-left: 20px;
+    margin-top: -5px;
+} */
+/* body {
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.title {
+    margin-top: -25px;
+}
+.address {
+    position: relative;
+    margin-left: 100px;
+}
+.email {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 47px;
+    /* margin-left: 100vw; */
+/* }
+.place {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -80px;
+    
+}  */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    /* color: white; */
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+main {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.first-section {
+    width: 40%;
+    height: 100%;
+}
+.name h4 {
+    margin-top: -15px;
+    font-size: 19px;
+}
+.about-me h5 {
+    font-size: 20px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(20, 167, 39);
+}
+.about-me p {
+    font-size: 17px;
+    text-align: center;
+    
+}
+/* .contact h5{
+    margin-top: -15px;
+    font-size: 19px;
+} */
+.second-section {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 5px 5px rgb(94, 180, 146);
+    background-color: #2BAE66FF;
+    
+}
