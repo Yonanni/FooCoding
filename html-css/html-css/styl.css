@@ -1,0 +1,140 @@
+/* hr {
+    margin-top: -20px;
+}
+.encyclop {
+    margin-left: 20px;
+    margin-top: -5px;
+} */
+/* body {
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.title {
+    margin-top: -25px;
+}
+.address {
+    position: relative;
+    margin-left: 100px;
+}
+.email {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 47px;
+    /* margin-left: 100vw; */
+/* }
+.place {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -80px;
+    
+}  */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 237, 237);
+    /* color: white; */
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+main {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 3px 100px rgb(red / 0.2);
+}
+
+.first-section {
+    width: 30%;
+    /* height: 100%; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* margin-left: 10px; */
+}
+.name {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.name h4 {
+    margin-top: -15px;
+    font-size: 19px;
+}
+.about-me h5 {
+    font-size: 20px;
+    width: 430px;
+    height: 35px;
+    background-color: #2BAE66FF;
+}
+.about-me {
+    margin-left: 40px;
+    width: 50%;
+    
+}
+.about-me p {
+    font-size: 20px;
+    margin-left: 40px;
+    /* text-align: center; */
+}
+.about-me ul {
+    list-style: none;
+}
+.about-me ul li {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.second-section {
+    background-color: #2BAE66FF;
+    margin-left: 10px;
+    /* height: 100%; */
+    box-shadow: 5px 5px;
+    transition: 0.3s;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+section div h5 {
+    margin-left: 15px;
+}
+.skill-title {
+    background-color: rgb(245, 237, 237);
+    height: 35px;
+    width: 36rem;
+    font-size: large;
+}
+.skils {
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.skill-detail p {
+    margin-left: 15px;
+}
+.skils div {
+    margin-left: 60px;
+    margin-top: -5px;
+}
+.skils div p {
+    margin-top: -15px;
+}
+progress {
+    display: block;
+    margin: -15px auto 20px auto;
+    width: 300px;
+  }
+  
